@@ -6,6 +6,7 @@ export const questions: Question[] = [
     text: "I bind together, yet I stand alone,In looms, I craft what is well-known.In a digital world, I help things proceed,A tiny part of what processes need.What am I?",
     difficulty: "easy",
     correctAnswer: "thread",
+    imageUrl: "https://www.shutterstock.com/image-vector/abstract-white-background-minimal-geometric-light-2281284523",
     audioUrl: "https://soundcloud.com/keerthi-narayan-m-v/spshard?si=25ce95180a234d8abb1559b8f1a63090&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
   },
   {
@@ -32,7 +33,7 @@ export const questions: Question[] = [
     text: "What is 12 × 12?",
     difficulty: "easy",
     correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "https://www.shutterstock.com/image-vector/abstract-white-background-minimal-geometric-light-2281284523",
     audioUrl: "https://soundcloud.com/keerthi-narayan-m-v/spshard?si=25ce95180a234d8abb1559b8f1a63090&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
   },
   {
