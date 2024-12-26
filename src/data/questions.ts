@@ -3,11 +3,13 @@ import { Question } from '../types';
 export const questions: Question[] = [
   {
     id: 1,
-    text: "What is 2 + 2?",
+    text: "I bind together, yet I stand alone,
+In looms, I craft what is well-known.
+In a digital world, I help things proceed,
+A tiny part of what processes need.
+What am I?",
     difficulty: "easy",
-    correctAnswer: "4",
-    imageUrl: "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand3.wav"
+    correctAnswer: "thread",
   },
   {
     id: 2,
