@@ -6,8 +6,8 @@ export const questions: Question[] = [
     text: "I bind together, yet I stand alone,In looms, I craft what is well-known.In a digital world, I help things proceed,A tiny part of what processes need.What am I?",
     difficulty: "easy",
     correctAnswer: "thread",
-    imageUrl: "https://drive.google.com/file/d/1dSQXHuGSlB09JILRMsNwx2dDKjX2hDn4/view",
-    audioUrl: "https://soundcloud.com/keerthi-narayan-m-v/spshard?si=25ce95180a234d8abb1559b8f1a63090&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    imageUrl: "https://i.imgur.com/K1FeUir.jpeg",
+    audioUrl: "https://vocaroo.com/1lP6MbIUdEl"
   },
   {
     id: 2,
