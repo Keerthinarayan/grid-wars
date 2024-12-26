@@ -73,35 +73,28 @@ export const questions: Question[] = [
   },
 {
     id: 12,
-    text: "What is 12 × 12?",
+    text: "solve quickly and go to next question",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "",
+    imageUrl: "https://i.imgur.com/csvFghD.jpeg",
   },
 {
     id: 13,
-    text: "What is 12 × 12?",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "75",
+    imageUrl: "https://i.imgur.com/XfRpRw2.jpeg",
   },
 {
     id: 14,
-    text: "What is 12 × 12?",
+    text: "Goto --> https://bmsit-ieee.github.io/sps/    Which is the first line you see(or cannot see) in it..? ",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "<!DOCTYPE html>",
   },
 {
     id: 15,
-    text: "What is 12 × 12?",
+    text: "Who am I? : Echo Dynamic Clock",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "academic block",
   },
 {
     id: 16,
