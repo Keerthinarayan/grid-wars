@@ -8,6 +8,7 @@ export const questions: Question[] = [
     correctAnswer: "thread",
     imageUrl: "https://i.imgur.com/K1FeUir.jpeg",
     audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/PinkPanther30.wav"
+    txtUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/lll.txt"
   },
   {
     id: 2,
