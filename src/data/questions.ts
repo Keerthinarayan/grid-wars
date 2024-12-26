@@ -154,7 +154,7 @@ export const questions: Question[] = [
     id: 21,
     text: "Hmmm.. listen and enter..",
     difficulty: "medium",
-    correctAnswer: "144",
+    correctAnswer: "only way out is through answers",
     audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/final audio.mp3"
   },
 {
@@ -168,7 +168,7 @@ export const questions: Question[] = [
     text: "Decode the audio",
     difficulty: "medium",
     correctAnswer: "volc",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/morse.wav"
   },
 {
     id: 27,
