@@ -31,27 +31,21 @@ export const questions: Question[] = [
   },
   {
     id: 5,
-    text: "What is 12 × 12?",
+    text: "I am a small part of something whole, used to test or show the goal. A peice of me you'll often see, hidden within 'example' is me. What am I?",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://www.shutterstock.com/image-vector/abstract-white-background-minimal-geometric-light-2281284523",
-    audioUrl: "https://soundcloud.com/keerthi-narayan-m-v/spshard?si=25ce95180a234d8abb1559b8f1a63090&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    correctAnswer: "sample",
   },
   {
     id: 6,
-    text: "What is 12 × 12?",
+    text: "Guess the gibberish : key pink cup wither cart ashy ants",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "keeping up with the kardashians",
   },
 {
     id: 7,
-    text: "What is 12 × 12?",
+    text: "I am a code you can scan, hiding answers in my plan. To solve this riddle, find my square, and scan me if you dare.",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "qr code",
   },
 {
     id: 8,
@@ -63,18 +57,17 @@ export const questions: Question[] = [
   },
 {
     id: 9,
-    text: "What is 12 × 12?",
+    text: "image bar graph thing",
     difficulty: "easy",
-    correctAnswer: "144",
+    correctAnswer: "7:9",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
     id: 10,
-    text: "What is 12 × 12?",
+    text: "Hmmmm.. listen and enter",
     difficulty: "easy",
     correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
@@ -159,80 +152,71 @@ export const questions: Question[] = [
   },
 {
     id: 21,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
+    text: "Hmmm.. listen and enter..",
+    difficulty: "medium",
     correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
-  },
-{
-    id: 22,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
     id: 23,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
-  },
-{
-    id: 24,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    text: "crack this : 28²34³6³ 2³6³33²2³",
+    difficulty: "medium",
+    correctAnswer: "audio codec",
   },
 {
     id: 25,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
-  },
-{
-    id: 26,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    text: "Decode the audio",
+    difficulty: "medium",
+    correctAnswer: "volc",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
     id: 27,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
+    text: "Stegano",
+    difficulty: "medium",
     correctAnswer: "144",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
-  },
-{
-    id: 28,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
     id: 29,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
+    text: "In a grid of glory, I hold my place,On the far-right edge, I set the pace.I rise and fall in a seamless dance,Revealing ranks at every glance.Flowing endlessly, I catch the eye,Look closely at the 14th from the sky.Not case sensitive, I'm easy to spy,What am I, as I scroll on by?",
+    difficulty: "medium",
+    correctAnswer: "63ea1iq7)&+jj!",
+  },
+{
+    id: 31,
+    text: "Logic Gates",
+    difficulty: "medium",
+    correctAnswer: "",
+  },
+{
+    id: 33,
+    text: " debugging",
+    difficulty: "medium",
+    correctAnswer: "",
+    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+  },
+{
+    id: 35,
+    text: "Create a visual heart for ",
+    difficulty: "medium",
     correctAnswer: "144",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
-    id: 30,
+    id: 37,
     text: "What is 12 × 12?",
-    difficulty: "hard",
+    difficulty: "medium",
+    correctAnswer: "144",
+    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+  },
+{
+    id: 39,
+    text: "What is 12 × 12?",
+    difficulty: "medium",
     correctAnswer: "144",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
