@@ -6,16 +6,12 @@ export const questions: Question[] = [
     text: "I bind together, yet I stand alone,In looms, I craft what is well-known.In a digital world, I help things proceed,A tiny part of what processes need.What am I?",
     difficulty: "easy",
     correctAnswer: "thread",
-    imageUrl: "https://i.imgur.com/K1FeUir.jpeg",
-    audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/PinkPanther30.wav"
-    
   },
   {
     id: 2,
     text: "A bit tricky one:   uwcvbiqv lme << 8",
     difficulty: "easy",
     correctAnswer: "mountain dew",
-   
   },
   {
     id: 3,
@@ -25,7 +21,7 @@ export const questions: Question[] = [
   },
   {
     id: 4,
-    text: "Task : @echo off > sps.txt \n echo RCB >> sps.txt \n sps.txt \n call us when this is done",
+    text: "Task : @echo off > sps.txt \n echo SPS_BMSIT >> sps.txt \n sps.txt \n call us when this is done",
     difficulty: "easy",
     correctAnswer: "volc",
   },
@@ -49,19 +45,18 @@ export const questions: Question[] = [
   },
 {
     id: 8,
-    text: "What is 12 × 12?",
+    text:"",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "flag",
+    imageUrl: "https://i.imgur.com/M47w1Cr.jpeg",
+    
   },
 {
     id: 9,
-    text: "image bar graph thing",
+    text: "Solve",
     difficulty: "easy",
     correctAnswer: "7:9",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    imageUrl: "https://i.imgur.com/MKUMVDz.jpeg",
   },
 {
     id: 10,
@@ -167,15 +162,15 @@ export const questions: Question[] = [
     id: 25,
     text: "Decode the audio",
     difficulty: "medium",
-    correctAnswer: "volc",
+    correctAnswer: "93539613",
     audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/morse.wav"
   },
 {
     id: 27,
-    text: "Stegano",
+    text: "Image Image Image..!",
     difficulty: "medium",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    correctAnswer: "Indian",
+    imageUrl: "https://i.imgur.com/043oC6a.jpeg",
   },
 {
     id: 29,
@@ -199,7 +194,7 @@ export const questions: Question[] = [
   },
 {
     id: 35,
-    text: "Create a visual heart for ",
+    text: " ",
     difficulty: "medium",
     correctAnswer: "144",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
