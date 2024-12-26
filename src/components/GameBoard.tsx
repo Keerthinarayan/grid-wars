@@ -11,8 +11,14 @@ interface GameBoardProps {
 
 export function GameBoard({ gameState, questions, onAnswerQuestion }: GameBoardProps) {
   const [selectedQuestion, setSelectedQuestion] = useState<Question | null>(null);
+  const TOTAL_BOXES = 50;
 
-  const getDifficultyColor = (difficulty: string) => {
+  const getDifficultyColor = (index: number) => {
+    // Determine difficulty based on position
+    const difficulty = index < 20 ? 'easy' 
+      : index < 40 ? 'medium' 
+      : 'hard';
+
     switch (difficulty) {
       case 'easy': return 'bg-green-100 hover:bg-green-200';
       case 'medium': return 'bg-yellow-100 hover:bg-yellow-200';
@@ -21,14 +27,15 @@ export function GameBoard({ gameState, questions, onAnswerQuestion }: GameBoardP
     }
   };
 
-  const getBoxStyle = (index: number, question: Question) => {
+  const getBoxStyle = (index: number) => {
     const isCurrentPosition = index === gameState.currentPosition;
-    const isAnswered = gameState.answeredQuestions.includes(question.id);
-    const isClickable = index === gameState.currentPosition;
+    const question = questions.find(q => q.id === index + 1);
+    const isAnswered = question && gameState.answeredQuestions.includes(question.id);
+    const isClickable = index === gameState.currentPosition && question;
     
     return `
       aspect-square rounded-lg shadow-md p-2 relative
-      ${getDifficultyColor(question.difficulty)}
+      ${getDifficultyColor(index)}
       ${isAnswered ? 'opacity-50' : ''}
       ${isClickable ? 'cursor-pointer' : 'cursor-not-allowed opacity-50'}
       ${isCurrentPosition ? 'ring-4 ring-purple-500' : ''}
@@ -36,12 +43,10 @@ export function GameBoard({ gameState, questions, onAnswerQuestion }: GameBoardP
     `;
   };
 
-  const getMoveIndicator = (difficulty: string) => {
-    const moves = {
-      easy: 1,
-      medium: 2,
-      hard: 3
-    }[difficulty];
+  const getMoveIndicator = (index: number) => {
+    const moves = index < 20 ? 1 
+      : index < 40 ? 2 
+      : 3;
 
     return Array(moves).fill(0).map((_, i) => (
       <ChevronRight 
@@ -52,9 +57,12 @@ export function GameBoard({ gameState, questions, onAnswerQuestion }: GameBoardP
     ));
   };
 
-  const handleBoxClick = (question: Question, index: number) => {
+  const handleBoxClick = (index: number) => {
     if (index === gameState.currentPosition) {
-      setSelectedQuestion(question);
+      const question = questions.find(q => q.id === index + 1);
+      if (question) {
+        setSelectedQuestion(question);
+      }
     }
   };
 
@@ -81,17 +89,17 @@ export function GameBoard({ gameState, questions, onAnswerQuestion }: GameBoardP
       </div>
 
       <div className="grid grid-cols-10 gap-4 max-w-6xl mx-auto mt-20">
-        {questions.map((question, index) => (
+        {Array.from({ length: TOTAL_BOXES }).map((_, index) => (
           <button
-            key={question.id}
-            onClick={() => handleBoxClick(question, index)}
+            key={index}
+            onClick={() => handleBoxClick(index)}
             disabled={index !== gameState.currentPosition}
-            className={getBoxStyle(index, question)}
+            className={getBoxStyle(index)}
           >
             <span className="text-lg font-bold">{index + 1}</span>
             {index === gameState.currentPosition && (
               <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 flex">
-                {getMoveIndicator(question.difficulty)}
+                {getMoveIndicator(index)}
               </div>
             )}
           </button>
