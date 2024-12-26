@@ -7,7 +7,7 @@ export const questions: Question[] = [
     difficulty: "easy",
     correctAnswer: "thread",
     imageUrl: "https://i.imgur.com/K1FeUir.jpeg",
-    audioUrl: "https://vocaroo.com/1lP6MbIUdEl"
+    audioUrl: "https://github.com/Keerthinarayan/vedioaudio/blob/main/PinkPanther30.wav"
   },
   {
     id: 2,
