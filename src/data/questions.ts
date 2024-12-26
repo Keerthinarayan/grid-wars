@@ -75,7 +75,7 @@ export const questions: Question[] = [
     id: 12,
     text: "solve quickly and go to next question",
     difficulty: "easy",
-    correctAnswer: "",
+    correctAnswer: "15",
     imageUrl: "https://i.imgur.com/csvFghD.jpeg",
   },
 {
@@ -140,7 +140,7 @@ export const questions: Question[] = [
     id: 21,
     text: "Hmmm.. listen and enter..",
     difficulty: "medium",
-    correctAnswer: "only way out is through answers",
+    correctAnswer: "the only way out is through answers",
     audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/final audio.mp3"
   },
 {
