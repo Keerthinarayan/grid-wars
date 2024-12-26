@@ -32,7 +32,7 @@ export const questions: Question[] = [
     difficulty: "easy",
     correctAnswer: "144",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://github.com/Keerthinarayan/vedioaudio/blob/main/PinkPanther30.wav"
+    audioUrl: "https://github.com/Keerthinarayan/vedioaudio/blob/main/online.wav"
   },
   {
     id: 6,
