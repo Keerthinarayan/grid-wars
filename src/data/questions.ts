@@ -60,18 +60,16 @@ export const questions: Question[] = [
   },
 {
     id: 10,
-    text: "Hmmmm.. listen and enter",
+    text: "You are in a 5x5 grid, starting at the top left. You can move only right or down. How many unique paths can you take to reach the bottom right?",
     difficulty: "easy",
-    correctAnswer: "144",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "70",
   },
 {
     id: 11,
-    text: "What is 12 × 12?",
+    text: "Find n(C) AND n(B')? ",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "1950",
+    imageUrl: "https://i.imgur.com/LMmuvV6.jpeg",
   },
 {
     id: 12,
@@ -187,68 +185,55 @@ export const questions: Question[] = [
   },
 {
     id: 33,
-    text: " debugging",
+    text: " HaHa.. HTML..",
     difficulty: "medium",
-    correctAnswer: "",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "29101217202324",
+    imageUrl: "https://i.imgur.com/5UtwMCd.jpeg"
   },
 {
     id: 35,
-    text: " ",
+    text: "Jigsaw(-->16)",
     difficulty: "medium",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "9F86d",
+    imageUrl: "https://i.imgur.com/uFSLpZZ.jpeg",
   },
 {
     id: 37,
-    text: "",
+    text: "Nooo.. not againnn..",
     difficulty: "medium",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    correctAnswer: "juice",
     audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/findme.mp3"
   },
 {
     id: 39,
     text: "What is 12 × 12?",
     difficulty: "medium",
-    correctAnswer: "144",
+    correctAnswer: "29101217202324",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
     id: 41,
-    text: "What is 12 × 12?",
+    text: "Crack me if you can.. ",
     difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "exeandvol",
   },
 {
     id: 44 ,
-    text: "What is 12 × 12?",
+    text: "Anonymousss...",
     difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "Arduino",
+    audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/hard.wav"
   },
 {
     id: 47,
-    text: "What is 12 × 12?",
+    text: "Not everything is as simple as it looks. Beware of shortcuts; the solution lies in understanding the journey of data. The original file holds the key to the answer. Altering it may lead you astray. Make sure you work with a copy if you're experimenting!",
     difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "47",
   },
 {
     id: 50,
-    text: "What is 12 × 12?",
+    text: "Great jobb.. Go to the volunteers quicklyyy..",
     difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
-  },
-
 ];
 
 // Helper functions
