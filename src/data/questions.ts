@@ -187,14 +187,14 @@ export const questions: Question[] = [
     id: 31,
     text: "Logic Gates",
     difficulty: "medium",
-    correctAnswer: "",
+    correctAnswer: "2945",
+    imageUrl: "https://i.imgur.com/RxHKZtx.jpeg",
   },
 {
     id: 33,
     text: " debugging",
     difficulty: "medium",
     correctAnswer: "",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
@@ -207,11 +207,11 @@ export const questions: Question[] = [
   },
 {
     id: 37,
-    text: "What is 12 × 12?",
+    text: "",
     difficulty: "medium",
     correctAnswer: "144",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/findme.mp3"
   },
 {
     id: 39,
