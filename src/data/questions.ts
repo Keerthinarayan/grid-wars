@@ -16,19 +16,15 @@ export const questions: Question[] = [
   },
   {
     id: 3,
-    text: "What is 10 ÷ 2?",
+    text: "Convert to text : 01101000 01100001 01101000 01100001",
     difficulty: "easy",
-    correctAnswer: "5",
-    imageUrl: "https://images.unsplash.com/photo-1635372722656-389f87a941b7?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav"
+    correctAnswer: "haha",
   },
   {
     id: 4,
-    text: "What is 8 × 7?",
+    text: "Task : @echo off > sps.txt \n echo RCB >> sps.txt \n sps.txt \n call us when this is done",
     difficulty: "easy",
-    correctAnswer: "56",
-    imageUrl: "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav"
+    correctAnswer: "volc",
   },
   {
     id: 5,
