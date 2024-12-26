@@ -3,21 +3,16 @@ import { Question } from '../types';
 export const questions: Question[] = [
   {
     id: 1,
-    text: "I bind together, yet I stand alone,
-In looms, I craft what is well-known.
-In a digital world, I help things proceed,
-A tiny part of what processes need.
-What am I?",
+    text: "I bind together, yet I stand alone,In looms, I craft what is well-known.In a digital world, I help things proceed,A tiny part of what processes need.What am I?",
     difficulty: "easy",
     correctAnswer: "thread",
   },
   {
     id: 2,
-    text: "What is 5 × 5?",
+    text: "A bit tricky one:   uwcvbiqv lme << 8",
     difficulty: "easy",
-    correctAnswer: "25",
-    imageUrl: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/ImperialMarch60.wav"
+    correctAnswer: "mountain dew",
+   
   },
   {
     id: 3,
