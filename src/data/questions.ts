@@ -155,7 +155,7 @@ export const questions: Question[] = [
     text: "Hmmm.. listen and enter..",
     difficulty: "medium",
     correctAnswer: "144",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    audioUrl: "https://raw.githubusercontent.com/Keerthinarayan/vedioaudio/main/final audio.mp3"
   },
 {
     id: 23,
@@ -222,7 +222,7 @@ export const questions: Question[] = [
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
-    id: 31,
+    id: 41,
     text: "What is 12 × 12?",
     difficulty: "hard",
     correctAnswer: "144",
@@ -230,7 +230,7 @@ export const questions: Question[] = [
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
-    id: 32 ,
+    id: 44 ,
     text: "What is 12 × 12?",
     difficulty: "hard",
     correctAnswer: "144",
@@ -238,7 +238,7 @@ export const questions: Question[] = [
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
-    id: 33,
+    id: 47,
     text: "What is 12 × 12?",
     difficulty: "hard",
     correctAnswer: "144",
@@ -246,21 +246,14 @@ export const questions: Question[] = [
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
 {
-    id: 34,
+    id: 50,
     text: "What is 12 × 12?",
     difficulty: "hard",
     correctAnswer: "144",
     imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
     audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
   },
-{
-    id: 35,
-    text: "What is 12 × 12?",
-    difficulty: "hard",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
-  },
+
 ];
 
 // Helper functions
