@@ -227,6 +227,7 @@ export const questions: Question[] = [
     id: 50,
     text: "Great jobb.. Go to the volunteers quicklyyy..",
     difficulty: "hard",
+}
 ];
 
 // Helper functions
