@@ -209,6 +209,7 @@ export const questions: Question[] = [
     text: "Crack me if you can.. ",
     difficulty: "hard",
     correctAnswer: "exeandvol",
+    imageUrl: "https://i.imgur.com/GqQ7Cks.jpeg",
   },
 {
     id: 44 ,
