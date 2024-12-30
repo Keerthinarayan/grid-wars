@@ -151,7 +151,7 @@ export const questions: Question[] = [
   },
 {
     id: 35,
-    text: "Image Image Image..!(call me before you solve)",
+    text: "Image Image Image..!(call me before you start this)",
     difficulty: "medium",
     correctAnswer: "Indian",
     imageUrl: "https://i.imgur.com/w3IkQgX.jpeg",
