@@ -27,7 +27,7 @@ export const questions: Question[] = [
   },
   {
     id: 5,
-    text: "I am a small part of something whole, used to test or show the goal. A peice of me you'll often see, hidden within 'example' is me. What am I?",
+    text: "I am a small part of something whole, used to test or show the goal. A piece of me you'll often see, hidden within 'example' is me. What am I?",
     difficulty: "easy",
     correctAnswer: "sample",
   },
@@ -111,26 +111,23 @@ export const questions: Question[] = [
   },
 {
     id: 18,
-    text: "What is 12 × 12?",
+    text: "Time to chillll.. come and impress us with a pickup line..",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "niceone",
   },
 {
     id: 19,
-    text: "What is 12 × 12?",
+    text: "Guess the phrase. Your English matters here..!",
     difficulty: "easy",
-    correctAnswer: "144",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav"
+    correctAnswer: "six feet under the ground",
+    imageUrl: "https://i.imgur.com/Cm7nrgE.jpeg",
   },
 {
     id: 20,
     text: "Get ready for the placementsss..",
     difficulty: "easy",
     correctAnswer: "2000",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "https://i.imgur.com/nytGLbX.jpeg",
   },
 {
     id: 21,
@@ -154,7 +151,7 @@ export const questions: Question[] = [
   },
 {
     id: 35,
-    text: "Image Image Image..!",
+    text: "Image Image Image..!(call me before you solve)",
     difficulty: "medium",
     correctAnswer: "Indian",
     imageUrl: "https://i.imgur.com/w3IkQgX.jpeg",
@@ -167,7 +164,7 @@ export const questions: Question[] = [
   },
 {
     id: 31,
-    text: "Not all states are significant, but some define the outcome(dont settle for less...)",
+    text: "Not all states are significant, but some define the outcome",
     difficulty: "medium",
     correctAnswer: "2945",
     imageUrl: "https://i.imgur.com/RxHKZtx.jpeg",
